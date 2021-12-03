@@ -1,9 +1,12 @@
 import React from 'react';
+import "./About.css"
+
+
 const About = () => {
     return (
 
 
-        <div id="about" style={{}}>
+        <div id="about" className="add-background" style={{}}>
             <div className="container mt-2 pb-4">
                 <h1 style={{ fontSize: "3rem" }} className=" pb-4 text-center ">About Me</h1>
                 <div className="row">
